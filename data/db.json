@@ -1,0 +1,45 @@
+salesquote
+{
+    "customer": "6645c8e6ba6b222c2a50114c", // Replace this with the ID of an existing customer get from id customer
+    "items": [
+        "6645c563fb85782d136af513", // Replace this with the ID of an existing item get from id item
+        "6645c6fd41282f33027cc9e5"  // Replace this with the ID of another existing item get from id item
+    ],
+    "totalPrice": 150.75
+}
+customer
+{
+    "name": "Khea",
+    "email": "Khea.doe@example.com",
+    "phoneNumber": "1234567890"
+}
+item
+{
+    "name": "bycical",
+    "description": "This is a black",
+    "price": 110.99
+}
+
+user 
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "password123"
+}
+sales order
+{
+    "customer": "6645c8e6ba6b222c2a50114c", // Replace this with the ID of an existing customer get from id customer
+    "items": [
+        "6645c563fb85782d136af513", // Replace this with the ID of an existing item get from id item
+        "6645c6fd41282f33027cc9e5"  // Replace this with the ID of another existing item get from id item
+    ],
+    "totalPrice": 150.75,
+    "status": "Pending"
+}
+sales invoice 
+
+    {
+        "saleOrder": "6645d08a88ccdd4f20ccf638", // Replace this with the ID of an existing sale order get from id sales order
+        "totalPrice": 150.75
+    }
+    
